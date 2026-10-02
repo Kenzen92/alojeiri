@@ -1,0 +1,8 @@
+# Force LF everywhere: devs on WSL, macOS and Linux share files with Docker containers.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff2 binary
+pnpm-lock.yaml -diff linguist-generated
+uv.lock -diff linguist-generated

@@ -1,0 +1,25 @@
+{
+  "name": "alojeiri",
+  "private": true,
+  "description": "Al Ojeiri platform monorepo (frontend workspaces; backend is a uv project in ./backend)",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10.28"
+  },
+  "scripts": {
+    "dev:web": "turbo run dev --filter=@alojeiri/web",
+    "dev:mobile": "turbo run start --filter=@alojeiri/mobile",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "gen:api": "turbo run gen --filter=@alojeiri/api-client"
+  },
+  "devDependencies": {
+    "prettier": "3.9.9",
+    "turbo": "2.11.6"
+  }
+}

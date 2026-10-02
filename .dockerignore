@@ -1,0 +1,11 @@
+.git
+**/node_modules
+**/dist
+**/.turbo
+**/.expo
+backend
+wearables
+widgets
+docs
+frontend/mobile/ios
+frontend/mobile/android

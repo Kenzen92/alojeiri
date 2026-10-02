@@ -1,0 +1,4 @@
+{
+  "extends": "@alojeiri/config/tsconfig.base.json",
+  "include": ["src"]
+}

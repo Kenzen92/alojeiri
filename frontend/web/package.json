@@ -1,0 +1,35 @@
+{
+  "name": "@alojeiri/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@alojeiri/api-client": "workspace:*",
+    "@alojeiri/design-tokens": "workspace:*",
+    "@alojeiri/i18n": "workspace:*",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@alojeiri/config": "workspace:*",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@types/node": "catalog:",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "eslint": "catalog:",
+    "jsdom": "30.1.1",
+    "typescript": "catalog:",
+    "vite": "8.3.2",
+    "vitest": "catalog:"
+  }
+}
