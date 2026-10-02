@@ -1,0 +1,11 @@
+node_modules
+dist
+.turbo
+.expo
+pnpm-lock.yaml
+backend
+wearables
+widgets
+frontend/mobile/ios
+frontend/mobile/android
+*.md

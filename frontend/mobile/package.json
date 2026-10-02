@@ -1,0 +1,32 @@
+{
+  "name": "@alojeiri/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "@alojeiri/api-client": "workspace:*",
+    "@alojeiri/design-tokens": "workspace:*",
+    "@alojeiri/i18n": "workspace:*",
+    "expo": "~57.0.26",
+    "expo-dev-client": "~57.0.19",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@alojeiri/config": "workspace:*",
+    "@types/react": "~19.2.2",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

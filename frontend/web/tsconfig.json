@@ -1,0 +1,5 @@
+{
+  "extends": "@alojeiri/config/tsconfig.react.json",
+  "compilerOptions": { "types": ["vite/client", "vitest/globals"] },
+  "include": ["src", "vite.config.ts"]
+}

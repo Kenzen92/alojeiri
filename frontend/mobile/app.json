@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Al Ojeiri",
+    "slug": "alojeiri",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.alojeiri.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.alojeiri.app"
+    },
+    "plugins": ["expo-dev-client"]
+  }
+}

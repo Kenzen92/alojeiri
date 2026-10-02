@@ -1,0 +1,16 @@
+packages:
+  - frontend/web
+  - frontend/mobile
+  - frontend/packages/*
+
+# Versions shared across workspaces. Reference as "catalog:" in package.json.
+# (React for mobile is pinned separately to the version Expo SDK 57 / React Native 0.86 require.)
+catalog:
+  typescript: 6.0.3
+  eslint: 10.11.0
+  typescript-eslint: 8.71.0
+  eslint-config-prettier: 10.1.8
+  eslint-plugin-react-hooks: 7.1.1
+  globals: 17.13.0
+  vitest: 5.0.3
+  '@types/node': 26.6.4
