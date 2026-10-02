@@ -27,7 +27,7 @@ jobs:
       backend_image: ${{ steps.names.outputs.backend }}
       web_image: ${{ steps.names.outputs.web }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - id: names
         run: |
           repo="ghcr.io/${GITHUB_REPOSITORY,,}"
@@ -62,7 +62,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: staging
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - name: Configure SSH
         run: |
           install -m 700 -d ~/.ssh
