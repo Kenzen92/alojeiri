@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.7
 # Builds the SPA and serves it with Caddy, which also reverse-proxies the API (see deploy/staging/Caddyfile).
 # Build context must be the repository root:  docker build -f frontend/web/Dockerfile .
-FROM node:22-alpine AS build
+FROM node:26-alpine AS build
 RUN corepack enable
 WORKDIR /repo
 COPY package.json pnpm-workspace.yaml pnpm-lock.yaml .npmrc ./
