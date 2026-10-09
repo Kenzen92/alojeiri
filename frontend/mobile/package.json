@@ -16,7 +16,7 @@
     "@alojeiri/api-client": "workspace:*",
     "@alojeiri/design-tokens": "workspace:*",
     "@alojeiri/i18n": "workspace:*",
-    "expo": "~57.0.26",
+    "expo": "~58.0.5",
     "expo-dev-client": "~57.0.19",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
